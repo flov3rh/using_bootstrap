@@ -1,12 +1,12 @@
-# Title
+# Using Bootstrap
 
-This is the XXXX project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
-* The goal was to 
-* The project was completed using simple html and css 
+This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
+* The goal was to recreate the Nnewsweek's website
+* The project was completed using Bootstrap
 
-#### [Assignment link]()
+#### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
-#### [Live Version]()
+#### [Live Version](https://raw.githack.com/flov3rh/using_bootstrap/features/index.html)
 
 #### Screenshots
 
@@ -17,7 +17,7 @@ This is the XXXX project of the Main HTML/CSS curriculum at [Microverse](https:/
 #### Authors
 
 * [@Flover](https://github.com/flov3rh)
-* [@Gus](https://github.com/gustavocesena/)
+
 
 
 
