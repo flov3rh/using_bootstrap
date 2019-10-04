@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--<link rel="stylesheet" href="assets/css/styles.css"/>-->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
 
     <title>Using Bootstrap</title>
     <script src="https://kit.fontawesome.com/cebf050324.js" crossorigin="anonymous"></script>
@@ -29,11 +29,11 @@
     <main class="border bg-white col-bg-9 pt-3 d-md-flex justify-content-around">
 
       <!-- Featured stories -->
-      <div class="col-sm-12 col-md-4 col-lg-3 flex-column">
+      <div class="m-0 col-sm-12 col-md-4 col-lg-3 flex-column">
         <span class="row text-muted mb-2 font-weight-bold">FEATURED STORIES</span>
         <article class="row">
           <figure class="figure position-relative">
-            <figcaption class="bg-white text-danger position-absolute font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
+            <figcaption class="bg-white text-danger position-absolute bottom-0 font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
             <img width="100%" src="https://via.placeholder.com/350x220">
           </figure>
           <div>
@@ -44,7 +44,7 @@
 
         <article class="row">
           <figure class="figure position-relative">
-            <figcaption class="bg-white text-danger position-absolute font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
+            <figcaption class="bg-white text-danger position-absolute bottom-0 font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
             <img width="100%" src="https://via.placeholder.com/350x220">
           </figure>
           <h6 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -53,7 +53,7 @@
 
         <article class="row">
           <figure class="figure position-relative">
-            <figcaption class="bg-white text-danger position-absolute font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
+            <figcaption class="bg-white text-danger position-absolute bottom-0 font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
             <img width="100%" src="https://via.placeholder.com/350x220">
           </figure>
           <h6 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -63,7 +63,7 @@
 
         <div class="row">
           <figure class="figure position-relative">
-            <figcaption class="small bg-white text-danger position-absolute font-weight-bold py-1 px-3 m border">SURVEY</figcaption>
+            <figcaption class="small bg-white text-danger position-absolute bottom-0 font-weight-bold py-1 px-3 m border">SURVEY</figcaption>
             <img  width="100%" src="https://d.newsweek.com/en/full/1527409/best-online-shops-2020.png?w=397&h=265&q=90&f=8662347cdc80612bafa925e60426b353"/>
           </figure>
           <h6 class="font-weight-bold">Best Online Shops 2020</h6>
@@ -74,7 +74,7 @@
 
         <article class="row border mb-3">
           <figure class="figure position-relative">
-            <figcaption class="bg-white text-info small position-absolute font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
+            <figcaption class="bg-white text-info small position-absolute bottom-0 font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
             <img width="100%" src="https://via.placeholder.com/350x220">
           </figure>
           <h6 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -83,7 +83,7 @@
 
         <article class="row border mb-3">
           <figure class="figure position-relative">
-            <figcaption class="bg-white text-info small position-absolute font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
+            <figcaption class="bg-white text-info small position-absolute bottom-0 font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
             <img width="100%" src="https://via.placeholder.com/350x220">
           </figure>
           <h6 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
@@ -91,12 +91,12 @@
         </article>
       </div>
 
-      <!-- Top story -->
-      <div class="col-sm-12 col-md-7 col-lg-5 d-flex flex-column px-3">
+      <!-- Second main col -->
+      <div class="m-0 col-sm-12 col-md-7 col-lg-5 mx-auto d-flex flex-column">
         <article>
           <span class="text-muted mb-2 font-weight-bold">TOP STORY</span>
           <figure class="row figure position-relative">
-            <figcaption class="bg-white text-danger position-absolute font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
+            <figcaption class="bg-white text-danger position-absolute bottom-0 font-weight-bold py-1 px-3 m border">NEWS</figcaption>          
             <img width="100%" src="https://via.placeholder.com/350x220">
           </figure>
         
@@ -226,11 +226,12 @@
             </div>
           </div>
         </div>
-            <!-- Featured stories sm -->
-      </div>        
-   
-      <!-- Opinion -->
-      <div class="col-sm-12 col-lg-3 d-md-none d-lg-flex flex-column">
+      </div> 
+
+
+    <!-- Third main col -->
+      <div class="row mx-auto d-none d-lg-flex col-lg-3 flex-column">
+        <!-- Opinion -->
         <div>
           <span class="row text-muted mb-2 font-weight-bold">OPINION</span>
           <div class="row mt-1 justify-content-between border-bottom">
@@ -295,7 +296,7 @@
         </div>
 
         <!--Latest News--> 
-        <div class="mt-4">
+        <div class="row mt-4 flex-column">
           <span class="row text-muted mb-2 font-weight-bold">LATEST NEWS</span>
 
           <div class="border-bottom mt-2 pt-2">          
@@ -334,13 +335,13 @@
           </div>                                                         
         </div>
 
-        <div class="col-sm-12 mx-auto mt-4">
+        <div class="row mx-auto mt-4">
           <article class="border mb-3 row">
             <figure class="figure position-relative">
-              <figcaption class="bg-white text-info small position-absolute font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
+              <figcaption class="bg-white text-info small position-absolute bottom-0 font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
               <img width="100%" src="https://via.placeholder.com/350x220">
             </figure>          
-            <h6 class="font-weight-bold"><a class="text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h6>
+            <h6 class="col-12 font-weight-bold"><a class="text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h6>
             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis sagittis lacus eu ultricies.</p>
           </article>  
 
@@ -357,16 +358,733 @@
             </div>
           </div>
         </div>
-      </div>
-
+      </div>                  
     </main>
 
-    
+    <!-- opinion sm-->
+
+      <div class="row mx-auto col-12 d-none d-sm-flex flex-column">
+        <!-- Opinion -->
+        <div>
+          <span class="row text-muted mb-2 font-weight-bold">OPINION</span>
+          <div class="row mt-1 justify-content-between border-bottom">
+            <figure class="ml-2 mt-2 row">
+              <a href="#"><img class="rounded-circle" src="https://via.placeholder.com/50x50"></a>
+            </figure>
+            <div class="col-9 mt-1">
+              <h6 class="small"><a class="font-weight-bold text-dark" href="#">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+              <p class="text-muted small"><small>Lorem ipsum dolor</small></p>
+            </div>
+          </div>
+
+          <div class="row mt-1 justify-content-between border-bottom">
+            <figure class="ml-2 mt-2 row">
+              <a href="#"><img class="rounded-circle" src="https://via.placeholder.com/50x50"></a>
+            </figure>
+            <div class="col-9 mt-1">
+              <h6 class="small"><a class="font-weight-bold text-dark" href="#">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+              <p class="text-muted small"><small>Lorem ipsum dolor</small></p>
+            </div>
+          </div>
+        
+          <div class="row mt-1 justify-content-between border-bottom">
+            <figure class="ml-2 mt-2 row">
+              <a href="#"><img class="rounded-circle" src="https://via.placeholder.com/50x50"></a>
+            </figure>
+            <div class="col-9 mt-1">
+              <h6 class="small"><a class="font-weight-bold text-dark" href="#">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+              <p class="text-muted small"><small>Lorem ipsum dolor</small></p>
+            </div>
+          </div>
+        
+          <div class="row mt-1 justify-content-between border-bottom">
+            <figure class="ml-2 mt-2 row">
+              <a href="#"><img class="rounded-circle" src="https://via.placeholder.com/50x50"></a>
+            </figure>
+            <div class="col-9 mt-1">
+              <h6 class="small"><a class="font-weight-bold text-dark" href="#">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+              <p class="text-muted small"><small>Lorem ipsum dolor</small></p>
+            </div>
+          </div>
+        
+          <div class="row mt-1 justify-content-between border-bottom">
+            <figure class="ml-2 mt-2 row">
+              <a href="#"><img class="rounded-circle" src="https://via.placeholder.com/50x50"></a>
+            </figure>
+            <div class="col-9 mt-1">
+              <h6 class="small"><a class="font-weight-bold text-dark" href="#">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+              <p class="text-muted small"><small>Lorem ipsum dolor</small></p>
+            </div>
+          </div>
+        
+          <div class="row mt-1 justify-content-between border-bottom">
+            <figure class="ml-2 mt-2 row">
+              <a href="#"><img class="rounded-circle" src="https://via.placeholder.com/50x50"></a>
+            </figure>
+            <div class="col-9 mt-1">
+              <h6 class="small"><a class="font-weight-bold text-dark" href="#">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+              <p class="text-muted small"><small>Lorem ipsum dolor</small></p>
+            </div>
+          </div>
+        </div>
+
+        <!--Latest News--> 
+        <div class="row mt-4 flex-column">
+          <span class="row text-muted mb-2 font-weight-bold">LATEST NEWS</span>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>
+
+          <div class="border-bottom mt-2 pt-2">          
+            <a href="#"><img class="float-left" src="https://via.placeholder.com/100x80"></a>
+              <h6 class="font-weight-bold pb-4"><a href="#" class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a></h6>
+          </div>                                                         
+        </div>
+
+        <div class="row mx-auto mt-4 flex-column">
+          <article class="border mb-3 col-5 mx-auto row">
+            <figure class="figure position-relative">
+              <figcaption class="bg-white text-info small position-absolute bottom-0 font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
+              <img width="100%" src="https://via.placeholder.com/350x220">
+            </figure>          
+            <h6 class="col-12 font-weight-bold"><a class="text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h6>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis sagittis lacus eu ultricies.</p>
+          </article>  
+
+          <div class="col-11 col-sm-6 mx-auto bg-light border mt-4">
+            <div class="row mt-3">
+              <figure class="col-1 ml-2 mr-2 mt-1">
+                <img src="assets/imgs/N.png"/>
+              </figure>
+              <p class="col-8 font-weight-bold small text-muted">SIGN UP FOR OUR NEWSLETTER</p>
+            </div>
+            <div class="row">
+              <button class="bg-secondary text-white ml-4 border-0 font-weight-bold">SIGN UP <i class="fas fa-angle-right"></i></button>
+              <a href="#" class="col-12 ml-2 mt-1 mb-4 text-dark small">Update your preferences »</a>
+            </div>
+          </div>
+
+        <div class="row mx-auto mt-4">
+          <article class="border mb-3 col-5 mx-auto row">
+            <figure class="figure position-relative">
+              <figcaption class="bg-white text-info small position-absolute bottom-0 font-weight-bold py-1 px-3 m border">SPONSORED INSIGHT</figcaption>          
+              <img width="100%" src="https://via.placeholder.com/350x220">
+            </figure>          
+            <h6 class="col-12 font-weight-bold"><a class="text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h6>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis sagittis lacus eu ultricies.</p>
+          </article>            
+        </div>
+      </div>      
+
+    <section class="bg-white container pt-3 px-5">
+      <div class="row">
+        <div class="col-12 d-flex">
+          <div class="p-0 col-3 mt-5 mr-3 pr-4 pt-3">
+            <figure class="m-0 border position-relative">
+              <figcaption class="small font-weight-bold bg-white position-absolute bottom-0 text-danger d-flex flex-column py-1">SEPTEMBER 27 ISSUE</figcaption>              
+              <img src="https://d.newsweek.com/en/full/1528173/september-27-2019.jpg?w=290&h=387&q=90&f=844050593ccf083d4504c9bae1bc1262" class="img-fluid"/>
+            </figure>
+            <a href="#" class="d-block bg-secondary text-dark py-1">SEE ALL FEATURES <i class="fas fa-angle-right"></i></a>
+          </div>
+
+          <div>
+            <div class="mt-3 d-flex justify-content-center border-bottom mb-3">
+              <figure>
+                <img src="assets/imgs/N.png"/>
+              </figure>
+              <p class="ml-2"><strong>IN THE MAGAZINE</strong></p>
+            </div>
+
+            <div class="row px-3 mb-4">
+              <div class="col-4 px-4">
+                <figure class="row">
+                  <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+                  <figcaption class="mt-2 text-danger"><small><strong><span class="p-1 text-white bg-danger">COVER</span> POLITICS</strong></small></figcaption>
+                </figure>
+                <h6><strong><a href="#" class="text-dark">Young Trump Voters Like These Are Key to a 2020 Victory</a></strong></h6>
+              </div>           
+         
+              <div class="col-4 px-4">
+                <figure class="row">
+                  <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+                  <figcaption class="mt-2 text-danger"><small><strong><span class="p-1 text-white bg-danger">DOWNLOADS</span> POLITICS</strong></small></figcaption>
+                </figure>
+                <h6><strong><a href="#" class="text-dark">Amy McGrath on How She Plans to Beat Mitch McConnell in 2020</a></strong></h6>
+              </div> 
+
+              <div class="col-4 px-4">
+                <figure class="row">
+                  <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+                  <figcaption class="mt-2 text-danger"><small><strong><span class="p-1 text-white bg-danger">DOWNLOADS</span> TECH & SCIENCE</strong></small></figcaption>
+                </figure>
+                <h6><a href="#" class="text-dark"><strong>What Animals Can Teach Us About Teenagers' Risky Behavior</strong></a></h6>
+              </div> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="row mb-3 justify-content-between">
+          <div class="col-3">
+            <figure class="row p-2">
+              <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+              <figcaption class="text-danger"><small><strong><span class="p-1 text-white bg-danger">DOWNLOADS</span> TECH & SCIENCE</strong></small></figcaption>
+            </figure>
+            <h6 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h6>
+          </div> 
+
+          <div class="col-3">
+            <figure class="row p-2">
+              <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+              <figcaption class="text-danger"><small><strong><span class="p-1 text-white bg-danger">DOWNLOADS</span> TECH & SCIENCE</strong></small></figcaption>
+            </figure>
+            <h6 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h6>
+          </div> 
+
+          <div class="col-3">
+            <figure class="row p-2">
+              <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+              <figcaption class="text-danger"><small><strong><span class="p-1 text-white bg-danger">DOWNLOADS</span> TECH & SCIENCE</strong></small></figcaption>
+            </figure>
+            <h6 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h6>
+          </div> 
+
+          <div class="col-3">
+            <figure class="row p-2">
+              <img class="img-fluid" src="https://via.placeholder.com/220x220"/>
+              <figcaption class="text-danger"><small><strong><span class="p-1 text-white bg-danger">DOWNLOADS</span> TECH & SCIENCE</strong></small></figcaption>
+            </figure>
+            <h6 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h6>
+          </div> 
+       </div>       
+      </div>
+    </section>
+
+    <section class="container bg-white pt-3">     
+      <div class="col-12 mb-3">
+        <div class="mt-3 d-flex justify-content-center border-bottom">
+          <figure>
+            <img src="assets/imgs/N.png"/>
+          </figure>
+          <p class="ml-2"><strong>EDITOR'S PICK</strong></p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>                
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>        
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>        
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>
+
+        <div class="col-3">
+          <figure>
+            <img class="img-fluid" src="https://via.placeholder.com/220x150"/>
+            <figcaption class="bg-white text-danger pl-2"><strong>POLITICS</strong></figcaption>
+          </figure>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+          <p>
+            <small class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo nunc quis justo aliquam.
+            </small>
+          </p>
+        </div>                      
+      </div>
+    </section>
+
+    <section class="container bg-white pt-3">      
+      <div class="col-12 mb-3">
+        <div class="mt-3 d-flex justify-content-center border-bottom">
+          <figure>
+            <img src="assets/imgs/N_slide.png"/>
+          </figure>
+          <p class="ml-2"><strong><a class="text-dark" href="#">FEATURED SLIDESHOWS</a></p>
+        </div>
+      </div>
+
+      <div class="row pl-4">
+        <div class="col-4 mb-3">
+          <figure>
+            <a href="#">
+              <img class="" src="https://via.placeholder.com/300x200"/>
+            </a>
+          </figure>
+          <img src="assets/imgs/slide.png"/>        
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+        </div>
+        
+        <div class="col-4 mb-3">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+            </a>
+          </figure>
+          <img src="assets/imgs/slide.png"/>        
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+        </div>
+ 
+        <div class="col-4 mb-3">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+            </a>
+          </figure>
+          <img src="assets/imgs/slide.png"/>        
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+        </div>     
+
+        <div class="col-4 mb-3">
+          <figure>
+            <a href="#">
+              <img class="" src="https://via.placeholder.com/300x200"/>
+            </a>
+          </figure>
+          <img src="assets/imgs/slide.png"/>        
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+        </div>
+        
+        <div class="col-4 mb-3">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+            </a>
+          </figure>
+          <img src="assets/imgs/slide.png"/>        
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+        </div>
+ 
+        <div class="col-4 mb-3">
+          <figure>
+            <a href="#">
+              <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+            </a>
+          </figure>
+          <img src="assets/imgs/slide.png"/>        
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>
+        </div>     
+
+
+      </div>
+    </section>
+
+    <section class="container bg-white pt-3 pb-3">
+      <div class="row mt-3 px-4">
+        <div class="col-12 text-danger pt-3 mb-1 border-top"><strong>U.S.</strong></div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4 d-flex flex-column">
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3 px-4">
+        <div class="col-12 text-danger pt-3 mb-1 border-top"><strong>World</strong></div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4 d-flex flex-column">
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3 px-4">
+        <div class="col-12 text-danger pt-3 mb-1 border-top"><strong>Business</strong></div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4 d-flex flex-column">
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3 px-4">
+        <div class="col-12 text-danger pt-3 mb-1 border-top"><strong>Tech &#38; Science</strong></div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4 d-flex flex-column">
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3 px-4">
+        <div class="col-12 text-danger pt-3 mb-1 border-top"><strong>Culture</strong></div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4 d-flex flex-column">
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3 px-4">
+        <div class="col-12 text-danger pt-3 mb-1 border-top"><strong>Sports</strong></div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4">
+          <img class="img-fluid" src="https://via.placeholder.com/300x200"/>
+          <h5 class="float"><a href="#" class="text-dark"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></a></h5>           
+        </div>
+
+        <div class="col-4 d-flex flex-column">
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+
+          <div class="d-flex">
+            <figure>
+              <img src="https://via.placeholder.com/100x65"/>
+            </figure>
+            <a class="ml-3 text-dark" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4 px-4 pt-2 border-top">
+        <div class="col-8">
+          <div class="row col-12 text-danger pt-3 mb-2"><small><strong>SUBSCRIBE</strong></small></div>
+          <div class="col-12 bg-light d-flex border pt-4">
+            <figure>
+              <img class="img-fluid" src="assets/imgs/thumbnail.png">
+            </figure>
+            <div class="mt-4 col-8">
+              <h5>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+              <p class="row col-8"><small class="text-muted">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</small></p>
+              <button class="bg-danger text-white border-0"><strong>SUBSCRIBE <i class="fas fa-angle-right"></i></strong></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="row col-12 text-danger pt-3 mb-2"><small><strong>NEWSLETTER</strong></small></div>
+          
+          <div class="border d-flex">
+            <img src="assets/imgs/newsletter.png"/>
+            <div class="col-6 pl-4">
+              <h5>Daily Briefing</h5>
+              <p>
+                <small class="text-muted">
+                  Take back your inbox. Sign up for our newsletter and start making sense of the world around you.
+                </small>
+              </p>
+              <button class="bg-danger text-white border-0"><strong>SUBSCRIBE <i class="fas fa-angle-right"></i></strong></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
+    <footer class="footer container bg-white pt-2 px-4">
+      <div class="border-top px-3">
+        <div class="mx-auto d-flex justify-content-between mt-3 border-bottom">
+          <div class="d-flex">
+            <a href="#"><img src="assets/imgs/newsweek.png"/></a>
+            <p class="mt-3 ml-2 mb-2"><small><small class="text-muted">© 2019 NEWSWEEK</small></small></p>
+          </div>
 
+          <ul class="list-inline mt-3 mb-0">
+            <li class="list-inline-item"><i class="fab fa-facebook-square"></i></li>
+            <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+            <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+            <li class="list-inline-item"><i class="fab fa-tumblr"></i></li>
+            <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
+          </ul>
+        </div>
 
+        <div class="d-flex justify-content-between">
+          <ul class="col-6 list-inline">
+            <li class="list-inline-item"><small><small class="border-right pr-2">About Us</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Corrections</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Contact Us</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Editorial Guidelines</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Advertise</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Copyright</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Terms &#38; Conditions</small></small></li> 
+            <li class="list-inline-item"><small><small class="border-right pr-2">Privacy Policy</small></small></li> 
+            <li class="list-inline-item"><small><small class="border-right pr-2">Cookie Policy</small></small></li> 
+            <li class="list-inline-item"><small><small class="border-right pr-2">Terms of Sale</small></small></li> 
+            <li class="list-inline-item"><small><small class="border-right pr-2">Archive</small></small></li> 
+            <li class="list-inline-item"><small><small class="border-right pr-2">Announcements</small></small></li>
+            <li class="list-inline-item"><small><small class="border-right pr-2">Consent preferences</small></small></li> 
+          </ul>
+
+          <div class="col-4 d-flex">
+            <p><small><strong class="text-muted pr-2">Editions:</strong></small></p>
+            <ul class="list-inline mr-5">
+              <li class="list-inline-item"><small><small class="border-right pr-2">U.S. Edition</small></small></li>
+              <li class="list-inline-item"><small><small class="border-right pr-2">日本</small></small></li>
+              <li class="list-inline-item"><small><small class="border-right pr-2">한국</small></small></li>
+              <li class="list-inline-item"><small><small class="border-right pr-2">Pakistan</small></small></li>
+              <li class="list-inline-item"><small><small class="border-right pr-2">Polska</small></small></li>
+              <li class="list-inline-item"><small><small class="border-right pr-2">România</small></small></li>
+            </ul>            
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
