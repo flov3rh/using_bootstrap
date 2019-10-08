@@ -10,9 +10,9 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### Screenshots
 
-![Not found Screenshot_1.png](assets/screenshots/Screenshot_1.png)
-![Not found Screenshot_2.png](assets/screenshots/Screenshot_2.png)
-![Not found Screenshot_3.png](assets/screenshots/Screenshot_3.png)
+![Not found Screenshot_1.png](assets/Screenshots/Screenshot_1.png)
+![Not found Screenshot_2.png](assets/Screenshots/Screenshot_2.png)
+![Not found Screenshot_3.png](assets/Screenshots/Screenshot_3.png)
 
 #### Authors
 
